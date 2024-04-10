@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
+
+.intros {
+  /* background-image: url('./Assets/log1.jpg');
+  background: #000; */
+  background-image: url('https://img.freepik.com/free-vector/buy-sell-concept-design-showing-bull-bear_1017-13716.jpg?t=st=1711643586~exp=1711647186~hmac=1b10a7e0a4f345324fe6c29ec5a99c25e2dff38143573e6701712f060507ebe8&w=740');
+
+  height: 290px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(116, 108, 108);
+  border-radius: 20px;
+  
+}
+.card{
+  background-color:rgb(255, 253, 243);
+}
+.button19 {
+  background-color:#ccc;
+  border: 3px solid #00d724;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #262727;
+  height: 25px;
+  width: 120px;
+}
+.button19:hover {
+  box-shadow: 0 0 10px 0 #00d70b inset, 0 0 20px 2px #00d724;
+  border: 3px solid #07d700;
+}
+.button14 {
+  background-color:#ccc;
+  border: 3px solid #00d724;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #262727;
+  height: 30px;
+  width: 120px;
+}
+.button14:hover {
+  box-shadow: 0 0 10px 0 #00d70b inset, 0 0 20px 2px #00d724;
+  border: 3px solid #07d700;
+}
+.button15 {
+  background-color:#ccc;
+  border: 3px solid#f53218;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #262727;
+  padding-bottom: 5px;
+  height: 30px;
+  width: 120px;
+}
+.button15:hover {
+  box-shadow: 0 0 10px 0 hsl(0, 88%, 51%) inset, 0 0 20px 2px #f53218;
+  border: 3px solid #f53218;
+}
+.button1 {
+  background-color:#ccc;
+  border: 3px solid #00d724;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #262727;
+  height: 35px;
+  width: 120px;
+}
+.button1:hover {
+  box-shadow: 0 0 10px 0 #00d70b inset, 0 0 20px 2px #00d724;
+  border: 3px solid #07d700;
+}
+.content1 {
+    /* border-radius: 25px; */
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 2px solid rgba(255, 255, 255, 0.59);
+    position: relative;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-color: green;
+    }
+    50% {
+        border-color: rgb(255, 0, 0);
+    }
+    100% {
+        border-color: green;
+    }
+}
+
+.content1 {
+    animation: borderAnimation 3s infinite;
+}
+p{
+  font-size: larger
+}
+.para{
+  text-align: center;
+}
+.images{
+  border-radius: 20px;
+  width:550px;
+   height:300px;
+   display: block;
+}
+a{
+  color: rgb(7, 6, 6);
+  padding: 0px 10px;
+}
+
+li{
+  color: rgb(31, 28, 28);
+  list-style: none;
+}
+.imagess{
+  border-radius: 20px;
+  width:95%;
+   height:300px;
+   display: block;
+}
+body{
+  /* background-color:rgba(69, 161, 223, 0.52); */
+  /* background-image: url('https://img.freepik.com/free-vector/financial-market-data-chart-background-forex-trading_1017-49902.jpg?w=740&t=st=1710950878~exp=1710951478~hmac=66972cd5f063c6afe8c562f6fe2133bd7f0961b87df85788b7cbcb1e2bfca08b'); */
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-color: rgb(255, 253, 243);
+ 
+}
+
+.card{
+  width:265px;
+}
+.explore {
+  width: 200px;
+  height: 35px;
+  border-radius: 25px;
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 600;
+  color: #382b22;
+  text-transform: uppercase;
+  padding: 1.25em 2em;
+  background:  #21f632;
+  border: 2px solid  #21f632;
+  /* border-radius: 0.75em; */
+  transform-style: preserve-3d;
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.explore::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #21f632;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px  #21f632, 0 0.625em 0 0  #21f632;
+  transform: translate3d(0, 0.75em, -1em);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.explore:hover {
+  background: #21f632;
+  transform: translate(0, 0.25em);
+}
+
+.explore:hover::before {
+  box-shadow: 0 0 0 2px  #21f632, 0 0.5em 0 0  #21f632;
+  transform: translate3d(0, 0.5em, -1em);
+}
+
+.explore:active {
+  background: #21f632;
+  transform: translate(0em, 0.75em);
+}
+
+.explore:active::before {
+  box-shadow: 0 0 0 2px  #21f632, 0 0  #21f632;
+  transform: translate3d(0, 0, -1em);
+}
+.exampleimg{
+  display: block;
+
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.09);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.4px);
+-webkit-backdrop-filter: blur(6.4px);
+border: 1px solid rgba(255, 255, 255, 0.59);
+
+}
+/* fade */
+.button12{
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInRightBig {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(2000px, 0, 0);
+  transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInRightBig {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(2000px, 0, 0);
+  transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  .button121{
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+    h3{
+      font-family: fantasy;
+    }
+    .welcome{
+      /* font-family:fantasy;
+      font-size:xx-large; */
+      font-family: sans-serif;
+      -webkit-animation-name: bounceInDown;
+      animation-name: bounceInDown;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes bounceInDown {
+      0%, 60%, 75%, 90%, 100% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      }
+      
+      0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -3000px, 0);
+      transform: translate3d(0, -3000px, 0);
+      }
+      
+      60% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 25px, 0);
+      transform: translate3d(0, 25px, 0);
+      }
+      
+      75% {
+      -webkit-transform: translate3d(0, -10px, 0);
+      transform: translate3d(0, -10px, 0);
+      }
+      
+      90% {
+      -webkit-transform: translate3d(0, 5px, 0);
+      transform: translate3d(0, 5px, 0);
+      }
+      
+      100% {
+      -webkit-transform: none;
+      transform: none;
+      }
+      }
+      
+      @keyframes bounceInDown {
+      0%, 60%, 75%, 90%, 100% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      }
+      
+      0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -3000px, 0);
+      transform: translate3d(0, -3000px, 0);
+      }
+      
+      60% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 25px, 0);
+      transform: translate3d(0, 25px, 0);
+      }
+      
+      75% {
+      -webkit-transform: translate3d(0, -10px, 0);
+      transform: translate3d(0, -10px, 0);
+      }
+      
+      90% {
+      -webkit-transform: translate3d(0, 5px, 0);
+      transform: translate3d(0, 5px, 0);
+      }
+      
+      100% {
+      -webkit-transform: none;
+      transform: none;
+      }
+      } 
+    
+      .navbars {
+        /* From https://css.glass */
+background: rgb(255, 253, 243);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(255, 255, 255, 0.63);
+        -webkit-animation-name: fadeInTopBig;
+        animation-name: fadeInTopBig;
+        -webkit-animation-duration: 0.3s;
+        animation-duration: 0.3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeInTopBig {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -2000px, 0);
+        transform: translate3d(0, -2000px, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInTopBig {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -2000px, 0);
+        transform: translate3d(0, -2000px, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 
+        /* .content1 {
+          -webkit-backface-visibility: visible !important;
+          backface-visibility: visible !important;
+          -webkit-animation-name: flipInY;
+          animation-name: flipInY;
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+      } */
+      
+      @-webkit-keyframes flipInY {
+          0% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+              -webkit-transition-timing-function: ease-in;
+              transition-timing-function: ease-in;
+              opacity: 0;
+          }
+          40% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+              -webkit-transition-timing-function: ease-in;
+              transition-timing-function: ease-in;
+          }
+          60% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+              opacity: 1;
+          }
+          80% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+          }
+          100% {
+              -webkit-transform: perspective(400px);
+              transform: perspective(400px);
+          }
+      }
+      
+      @keyframes flipInY {
+          0% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+              -webkit-transition-timing-function: ease-in;
+              transition-timing-function: ease-in;
+              opacity: 0;
+          }
+          40% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+              -webkit-transition-timing-function: ease-in;
+              transition-timing-function: ease-in;
+          }
+          60% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+              opacity: 1;
+          }
+          80% {
+              -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+              transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+          }
+          100% {
+              -webkit-transform: perspective(400px);
+              transform: perspective(400px);
+          }
+      }
+      p{
+        /* font-family: fantasy; */
+        word-spacing: 0.5rem;  
+        /* background: linear-gradient(to right, rgb(255, 137, 137) 50%, rgb(131, 192, 120) 50%);
+        -webkit-background-clip: text;
+        color: transparent;  */
+        color: black;
+  }
+  .logintext{
+    width:max-content;
+    height: max-content;
+  }
+  .Login{
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 2px solid rgba(255, 255, 255, 0.59);
+    position: relative;
+    width:auto;
+    height: auto;
+
+  }
+  /* h1{
+    font-style: italic;
+    text-decoration: underline;
+  } */
+  .candlecontainer:hover{
+    box-shadow: 0px 0px 10px rgb(4, 255, 4);
+    cursor: pointer;
+   }
+   .candlecontainer1:hover{
+    box-shadow: 16px rgb(4, 255, 4);
+    cursor: pointer;
+   }
+   p{
+     white-space: pre-line;
+   }
+  .menu:hover{
+    color: rgb(34, 236, 34);
+    font-size: larger;
+    font-weight: bold;
+  }
+  .underline {
+    color: rgb(172, 164, 164);
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.candless{
+  border-radius: 25px;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 2px solid rgba(255, 255, 255, 0.59);
+    position: relative;
+
+}
+.imageex{
+  width:900px;
+  height: 300px;
+  display: block;
+}
+.imageexx{
+  width:900px;
+  height: 300px;
+
+  display: block;
+}
+.listitem{
+  display: list-item;
+  text-decoration: none;
+}
+
+
+.slider-container {
+  display: flex;
+  gap: 2rem; /* Adjust the space between cards */
+}
+.cards{
+  width: 240px;
+  height: 140px;
+  margin: 0px 10px;
+
+}
+.cardinfo{
+  margin: 0px 10px;
+}
+.cardgap{
+  margin: 0px 5px ;
+}
+.topind{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* padding-top: 125px;
+  padding-left: 155px; */
+}
+
+
+
+
+
+
+  
+  
+
+         
